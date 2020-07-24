@@ -38,7 +38,7 @@ function minimaxValue (state, game)
 For multiplayer mode and Chatapp Socket.IO , Node.js, jQuery, Express.js are used.
 <br />
  
- **RUNTIME ERROR**
+ Team Name: **RUNTIME ERROR**
  -  Team from Manipal Institute of Technology,Manipal.
  -  Team Members:
     * Shreyan J D Fernandes 
