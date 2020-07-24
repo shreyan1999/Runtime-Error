@@ -1,0 +1,128 @@
+body {
+    background-image: radial-gradient(circle, #05023b, #002457, #00416f, #005d81, #007a90, #007a90, #007a90, #007a90, #005d81, #00416f, #002457, #05023b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: lighter;
+    font-family: 'Ranchers', cursive;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.chat {
+    text-align: center;
+    padding: 10px;
+    background: #2cccc3;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Ranchers', cursive;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 5px 5px 15px;
+}
+
+.chat a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.6px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Ranchers', cursive;
+    font-size: 60px;
+}
+
+.info {
+    font-size: 2em !important;
+}
+
+._row {
+    height: 100px;
+}
+
+._col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+._col:hover {
+    background-color: #3fd2c7;
+}
+
+.border_f {
+    border-bottom: 10px solid white;
+    width: 92%;
+}
+
+.border_s {
+    border-right: 10px solid white;
+}
+
+.winner {
+    color: #3eb650;
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-grid;
+}
+
+.back {
+    width: 30%;
+    height: 500px;
+    background-color: #14bdac;
+    float: left;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.play img {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+.play h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #2B60DE;
+}
+
+.feild {
+    padding: 2px;
+    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.alt {
+    color: #e40c2b;
+}
+
+.hidden {
+    display: none;
+}

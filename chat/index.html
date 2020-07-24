@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link rel="shortcut icon " href="meta.png" type="image/x-icon ">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-image: radial-gradient(circle, #05023b, #002457, #00416f, #005d81, #007a90, #007a90, #007a90, #007a90, #005d81, #00416f, #002457, #05023b);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0 auto;
+        }
+        
+        #message-container {
+            width: 80%;
+            max-width: 1200px;
+            border: none;
+            border-radius: 10px;
+            height: 20px;
+        }
+        
+        #message-container div {
+            background-color: #CCC;
+            padding: 5px;
+            border: none;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1200px;
+        }
+        
+        #message-container div:nth-child(2n) {
+            background-color: #FFF;
+        }
+        
+        #send-container {
+            position: fixed;
+            padding-bottom: 30px;
+            bottom: 0;
+            background: inherit;
+            max-width: 1200px;
+            width: 80%;
+            display: flex;
+        }
+        
+        #send-button {
+            background-color: #3cbcc3;
+            border: none;
+            border-radius: 3px;
+            padding: 0.8em;
+            color: white;
+            font-family: 'Red Rose', cursive;
+        }
+        
+        #message-input {
+            flex-grow: 1;
+            border: none;
+            font-family: 'Red Rose', cursive;
+            color: #00458b;
+            border-radius: 5px;
+            font-size: 1em;
+            padding: 0px 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="message-container">
+        <form id="send-container">
+            <input type="text" id="message-input">
+            <button type="submit" id="send-button">Send</button>
+        </form>
+
+
+</body>
+
+</html>
